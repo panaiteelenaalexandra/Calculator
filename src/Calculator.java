@@ -73,7 +73,7 @@ public class Calculator extends JFrame {
                 } else if (finalI == 6) {  // Butonul ( - Adăugăm paranteza stângă
                     expression += "(";
                     area.setText(expression);
-                } else if (finalI == 7) {  // Butonul ) - Adăugăm paranteza dreaptă
+                } else if (finalI == 7) {  
                     expression += ")";
                     area.setText(expression);
                 } else {  // Operatori
@@ -218,7 +218,7 @@ public class Calculator extends JFrame {
             return left;
         }
 
-        // Obține subarborele drept
+        
         public ExpressionTree getRight() {
             return right;
         }
